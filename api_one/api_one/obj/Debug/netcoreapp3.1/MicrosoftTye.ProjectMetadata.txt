@@ -1,0 +1,21 @@
+AssemblyInformationalVersion:
+InformationalVersion: 1.0.0
+Version: 1.0.0
+TargetFrameworks:
+RunCommand: D:\repos\tye\api_one\api_one\bin\Debug\netcoreapp3.1\api_one.exe
+RunArguments:
+TargetPath: D:\repos\tye\api_one\api_one\bin\Debug\netcoreapp3.1\api_one.dll
+PublishDir: bin\Debug\netcoreapp3.1\publish\
+AssemblyName: api_one
+IntermediateOutputPath: obj\Debug\netcoreapp3.1\
+TargetFramework: netcoreapp3.1
+_ShortFrameworkIdentifier:
+_ShortFrameworkVersion:
+_TargetFrameworkVersionWithoutV: 3.1
+FrameworkReference: Microsoft.NETCore.App;Microsoft.AspNetCore.App
+ContainerBaseImage:
+ContainerBaseTag:
+MicrosoftNETPlatformLibrary:
+_AspNetCoreAppSharedFxIsEnabled:
+UsingMicrosoftNETSdkWeb: true
+AzureFunctionsVersion:

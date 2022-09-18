@@ -1,0 +1,41 @@
+name: tye test
+registry: AndresSanRo
+
+services:
+  - name: api-one
+    project: ./api_one/api_one/api_one.csproj
+    bindings:
+      - protocol: https
+        port: 4001
+    tags:
+      - one
+      - backend
+      - all
+  - name: api-two
+    project: ./api_two/api_two/api_two.csproj
+    bindings:
+      - protocol: https
+        port: 4002
+    tags:
+      - two
+      - backend
+      - all
+  - name: razor
+    project: ./frontend/frontend.csproj
+    bindings:
+      - protocol: https
+        port: 3002
+    tags:
+      - razor
+      - frontend
+      - all
+  - name: react
+    executable: cmd
+    args: "/c cd ./react-tye && npm run start"
+    bindings:
+      - protocol: http
+        port: 3000
+    tags:
+      - react
+      - frontend
+      - all
